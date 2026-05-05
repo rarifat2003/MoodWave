@@ -322,35 +322,35 @@ body>* {
 }
 
 .track1 {
-    background-image: url("../img/covers/phonkcover.png");
+    background-image: url("img/covers/phonkcover.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .track2 {
-    background-image: url("../img/covers/englishcover.png");
+    background-image: url("img/covers/englishcover.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .track3 {
-    background-image: url("../img/covers/nasheedscover.png");
+    background-image: url("img/covers/nasheedscover.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .track4 {
-    background-image: url("../img/covers/banglacover.png");
+    background-image: url("img/covers/banglacover.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .track5 {
-    background-image: url("../img/covers/phonkcover.png");
+    background-image: url("img/covers/phonkcover.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
