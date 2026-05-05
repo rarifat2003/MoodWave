@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap');
+:root {
+    --bg-color: #1a1a2e;
+    --bg-secondary: #16213e;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --primary: #e94560;
+    --primary-soft: #ff6b6b;
+    --secondary: #0f3460;
+    --accent: #ffd93d;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+}

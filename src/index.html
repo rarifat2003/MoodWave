@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodWave : Harmonizing Moods & Melodies</title>
+    <link rel="icon" href="..\img\fav.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="color_palette.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head_1">
+            <img class="logo" src="..\img\logo_icon.svg" alt="..." width="50" height="50">
+            <p>MoodWave</p>
+        </div>
+        <div class="head_2">
+            <label for="search">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <img class="search_icon" src="..\img\search.svg" alt="..." width="20" height="20">
+            </label>
+        </div>
+        <div class="head_3">
+            <button class="head_3_btn login">Login</button>
+            <button class="head_3_btn signup">Signup</button>
+        </div>
+        <div class="head_4">
+            <label for="theme">
+                <select name="theme" id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark" selected>Dark</option>
+                </select>
+            </label>
+        </div>
+    </div>
+
+    <div class="main_landing">
+        <div class="hero_card">
+            <div class="main_left">
+                <span class="hero_tag">🎵 Discover · Explore · Vibe</span>
+                <h2>Your Next Favourite Track</h2>
+                <p>Dive into a library of deep cuts, classics and hidden gems — curated for every mood.</p>
+                <div class="hero_stats">
+                    <div class="stat"><strong>10K+</strong><span>Songs</span></div>
+                    <div class="stat"><strong>50+</strong><span>Genres</span></div>
+                    <div class="stat"><strong>100%</strong><span>Free</span></div>
+                </div>
+                <button class="explore_btn">Start Listening</button>
+            </div>
+            <div class="main_right">
+                <img class="main_body_img" src="..\img\bodyimage.png" alt="..">
+            </div>
+        </div>
+    </div>
+
+    <div class="main_details">
+        <div class="main_details_mask">
+
+            <div class="main_details_sidebar">
+                <div class="sidebar_nav">
+                    <h2>Songs List </h2>
+                    <img src="../img/songlogo.svg" alt="...">
+                </div>
+                <div class="sidebar_songs">
+                </div>
+            </div>
+
+
+            <div class="main_details_track_bar">
+                <h1>Track Collections</h1>
+                <div class="main_details_track_bar_mask">
+                    <!-- Later Use JS - concept upon clicking A track songs will listed into the song sidebar -->
+                    <div class="tracks track1" data-trackid="track1"></div>
+                    <div class="tracks track2" data-trackid="track2"></div>
+                    <div class="tracks track3" data-trackid="track3"></div>
+                    <div class="tracks track4" data-trackid="track4"></div>
+                    <div class="tracks track5" data-trackid="track5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-1">
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">For the Record</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Communities</h3>
+                <ul>
+                    <li><a href="#">For Artists</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Vendors</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Free Mobile App</a></li>
+                    <li><a href="#">Popular by Country</a></li>
+                    <li><a href="#">Import your music</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Nasheedify Plans</h3>
+                <ul>
+                    <li><a href="#">Premium Individual</a></li>
+                    <li><a href="#">Premium Duo</a></li>
+                    <li><a href="#">Premium Family</a></li>
+                    <li><a href="#">Premium Student</a></li>
+                    <li><a href="#">Nasheedify Free</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-links">
+                <a href="https://facebook.com" class="social-icon"><img src="../img/fbsvg.svg" alt=""></a>
+                <a href="https://facebook.com" class="social-icon"><img src="../img/xsvg.svg" alt=""></a>
+                <a href="https://facebook.com" class="social-icon"><img src="../img/alien.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="footer-2-left">
+                <ul>
+                    <li>Legal</li>
+                    <li>Safety & Privacy Center</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookies</li>
+                    <li>About Ads</li>
+                    <li>Accessibility</li>
+                </ul>
+            </div>
+            <div class="footer-2-right">
+                <h3>© 2026 MoodWave LF</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="audio_player">
+        <audio id="audio" controls></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
