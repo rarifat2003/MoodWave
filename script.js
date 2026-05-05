@@ -40,19 +40,19 @@ exploreBtn.addEventListener('click', function () {
 const tracks = {
     track1: {
         name: "Phonk",
-        songs: ["../audio/phonks/alexgrohl-sweet-life-luxury-chill-438146.mp3", "../audio/phonks/bransboynd-fresh-457883.mp3", "../audio/phonks/denys_brodovskyi-tell-me-what-379638.mp3"]
+        songs: ["audio/phonks/alexgrohl-sweet-life-luxury-chill-438146.mp3", "audio/phonks/bransboynd-fresh-457883.mp3", "audio/phonks/denys_brodovskyi-tell-me-what-379638.mp3"]
     },
     track2: {
         name: "English",
-        songs: ["../audio/english/aberrantrealities-organic-flow-1015-remastered-485950.mp3", "../audio/english/fassounds-escape-your-love-upbeat-fashion-pop-dance-412230.mp3", "../audio/english/kontraa-no-sleep-hiphop-music-473847.mp3"]
+        songs: ["audio/english/aberrantrealities-organic-flow-1015-remastered-485950.mp3", "audio/english/fassounds-escape-your-love-upbeat-fashion-pop-dance-412230.mp3", "audio/english/kontraa-no-sleep-hiphop-music-473847.mp3"]
     },
     track3: {
         name: "Nasheed",
-        songs: ["../audio/nasheeds/Ahmad_Al-Muquit_-_Beautyfull_nasheed_(mp3.pm).mp3", "../audio/nasheeds/light-of-faith-425565.mp3", "../audio/nasheeds/Muhammad_A_-_Antassalam_Arabic_Nasheed_(mp3.pm).mp3", "../audio/nasheeds/path-to-jannah-425563.mp3", "../audio/nasheeds/Wase_al_Karam_Nasheed_-_Moj_Gospod_Samyj_CSHedryj_(mp3.pm).mp3"]
+        songs: ["audio/nasheeds/Ahmad_Al-Muquit_-_Beautyfull_nasheed_(mp3.pm).mp3", "audio/nasheeds/light-of-faith-425565.mp3", "audio/nasheeds/Muhammad_A_-_Antassalam_Arabic_Nasheed_(mp3.pm).mp3", "audio/nasheeds/path-to-jannah-425563.mp3", "audio/nasheeds/Wase_al_Karam_Nasheed_-_Moj_Gospod_Samyj_CSHedryj_(mp3.pm).mp3"]
     },
     track4: {
         name: "Bangla",
-        songs: ["../audio/bangla/creatorfiroz--329709.mp3", "../audio/bangla/roni8090--342226.mp3", "../audio/bangla/sm_sakib-je-aghat-korco-tumi-458914.mp3"]
+        songs: ["audio/bangla/creatorfiroz--329709.mp3", "audio/bangla/roni8090--342226.mp3", "audio/bangla/sm_sakib-je-aghat-korco-tumi-458914.mp3"]
     }
 };
 
