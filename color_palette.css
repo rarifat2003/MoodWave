@@ -10,4 +10,5 @@
     --accent: #ffd93d;
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
+    transition: all 0.3s ease;
 }

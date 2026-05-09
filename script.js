@@ -84,3 +84,13 @@ sidebarSongsContainer.addEventListener('click', (e) => {
     audio.src = song.dataset.src;
     audio.play();
 });
+
+
+
+const subscribeBtn = document.querySelector('.subscribe');
+if (subscribeBtn) {
+    subscribeBtn.addEventListener('click', () => {
+        subscribeBtn.innerText = "Cooming Soon";
+        subscribeBtn.style.opacity = 0.7;
+    });
+}
