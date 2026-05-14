@@ -85,8 +85,6 @@ sidebarSongsContainer.addEventListener('click', (e) => {
     audio.play();
 });
 
-
-
 const subscribeBtn = document.querySelector('.subscribe');
 if (subscribeBtn) {
     subscribeBtn.addEventListener('click', () => {

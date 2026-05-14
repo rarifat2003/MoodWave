@@ -48,7 +48,10 @@ input:focus {
     align-items: center;
     margin-top: 1rem;
 }
-
+.form-footer a ,.form-footer a{
+    color: var(--text-secondary); 
+    font-size: 0.8rem;
+}
 button {
     cursor: pointer;
     padding: 0.5rem 1.5rem;
